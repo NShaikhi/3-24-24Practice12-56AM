@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Form>
+        <label for="Title">Your Title:</label><br>
+        <input type="text" id="title" name="title-field"><br>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="varname"><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname"name="lname"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <br><p>Gender?</p>
+
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" value="Female">
+        <label for="male">Female</label>
+
+        <input type="radio" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <input type="text">
+    <p> What streaming Service or services do you use? choose 1 or more.</p>
+        <input type="checkbox" id="services1" name="services1" value="Netflix">
+        <label for="services1">Netflix</label><br>
+        <input type="checkbox" id="services2" name="services2" value="Hulu">
+        <label for="services2">Hulu</label><br>
+        <input type="checkbox" id="service3" name="service3" value="Disney">
+        <label for="service3">Disney</label><br>
+        <input type="checkbox" id="service4" name="service4" value="Amazon">
+        <label for="service4">Amazon</label><br>
+        <input type="checkbox" id="service5" name="service5" value="eBay">
+        <label for="service5">eBay</label>
+<br><br>
+    <label for="food">Choose a Food Preference:</label>
+        <select name="food" id="food">
+            <option value="Meat">Meat</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Fish">Fish</option>
+            <option value="Kobeda Kebab">Kobeda Kebab</option>
+            <option value="Kabuli Pulao">Kabuli Pulao</option>
+        </select><br><br>
+
+        <input type="submit" value="submit">
+        <br><br>
+        <input type="submit" value="Clickme" onclick="msg()">
+
+
+    </Form>
+    
+</body>
+</html>
